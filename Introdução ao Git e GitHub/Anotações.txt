@@ -1,1 +1,16 @@
 Anotações sobre Git e GitHub
+
+Comandos úteis para utilização do git são :
+>git status
+
+>git add (esse comando possui uma série de opções. Elas se diferem de acordo com a intenção do Update a ser realizado. 
+	O mais utilizado é o "git add -A", pois commmita todo o trabalho da ávore. pode ser feito tabém por "git add .")
+
+>git commit -m "Descrição sobre o Update" "Aqui as atualizações saem de untracked para tracked e já podem ser mandadas para
+					 o repositório remoto"
+
+>git push origin main "Envia o update para o repositório" (Esse processo pode gerar conflitos de versões, caso haja uma versão mais atualizada no repositório remoto, mas é simples de resolver.)
+
+Há também o git clone para clonar um repositório no GitHub. 
+
+>>Não esquecer de adicionar um README.md descrevendo o que há no repositório.
